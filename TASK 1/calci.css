@@ -1,0 +1,64 @@
+/* calculator.css */
+
+body {
+  font-family: 'Handjet', sans-serif;
+  background-color: #666;
+  color: #fff;
+}
+
+.calculator {
+  border: 2px solid #888;
+  border-radius: 8px;
+  margin: 20px auto;
+  padding: 20px;
+  width: 300px;
+  background-color: #555;
+}
+
+#display {
+  width: 100%;
+  height: 40px;
+  font-size: 20px;
+  margin-bottom: 10px;
+  text-align: right;
+  padding-right: 10px;
+  background-color: #777;
+  color: #fff;
+}
+
+.keys {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 10px;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.button {
+  font-size: 18px;
+  padding: 10px;
+  width: 60px;
+  text-align: center;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.number {
+  background-color: #444;
+}
+
+.operator {
+  background-color: #777;
+}
+
+.backspace {
+  background-color: #999;
+}
+
+#calculate {
+  background-color: #f00;
+}
